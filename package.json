@@ -20,8 +20,11 @@
     "ios"
   ],
   "scripts": {
-    "prepublish": "npx tsc",
-    "postinstall": "npx tsc"
+    "prepublish": "yarn tsc",
+    "postinstall": "yarn tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.2.2"
   },
   "devDependencies": {
     "@react-native-community/eslint-config": "0.0.2",
@@ -37,8 +40,5 @@
   "bugs": {
     "url": "https://github.com/react-native-community/react-native-text-input-mask/issues"
   },
-  "homepage": "https://github.com/react-native-community/react-native-text-input-mask",
-  "dependencies": {
-    "typescript": "^4.2.2"
-  }
+  "homepage": "https://github.com/react-native-community/react-native-text-input-mask"
 }
