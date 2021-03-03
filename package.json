@@ -20,8 +20,7 @@
     "ios"
   ],
   "scripts": {
-    "prepublish": "npx tsc",
-    "postinstall": "npx tsc"
+    "prepublish": "npx tsc"
   },
   "devDependencies": {
     "@react-native-community/eslint-config": "0.0.2",
