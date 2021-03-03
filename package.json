@@ -31,14 +31,12 @@
     "tslib": "^2.1.0"
   },
   "peerDependencies": {
-    "react-native": ">=0.62.2"
+    "react-native": ">=0.62.2",
+    "typescript": "^4.2.2"
   },
   "author": "Ivan Zotov",
   "bugs": {
     "url": "https://github.com/react-native-community/react-native-text-input-mask/issues"
   },
-  "homepage": "https://github.com/react-native-community/react-native-text-input-mask",
-  "dependencies": {
-    "typescript": "^4.2.2"
-  }
+  "homepage": "https://github.com/react-native-community/react-native-text-input-mask"
 }
